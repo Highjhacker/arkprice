@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/Highjhacker/arkprice.svg?branch=master)](https://travis-ci.org/Highjhacker/arkprice)
-
+[![HitCount](http://hits.dwyl.io/Highjhacker/priceark.svg)](http://hits.dwyl.io/Highjhacker/priceark) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 # ArkPrice
 
 Fetch the price of Ark in any (crypto)currency.
