@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Highjhacker/arkprice.svg?branch=master)](https://travis-ci.org/Highjhacker/arkprice)
+
 # ArkPrice
 
 Fetch the price of Ark in any (crypto)currency.
