@@ -9,11 +9,38 @@ Fetch the price of Ark in any (crypto)currency.
 ## Installation
 
 ```shell
-pip install arkprice
+$ pip install arkprice
 ```
 
 ## Usage
 
+### Fetching the price
+
+You can fetch the price without any parameter, by default the return value will be in USD, 
+or specify multiples (crypto)currency you want to use.
+
+```python
+from ArkPrice import get_price
+
+print(get_price("eur"))
+print(get_price("eur", "btc", "usd"))
+>>> {'EUR': 4.41}
+>>> {'EUR': 4.41, 'BTC': 0.0004976, 'USD': 5.39}
+```
+
+### Output the price
+
+Output the price directly in the console with the correct symbol of the currency.
+
+```python
+from ArkPrice import output_price
+
+output_price("eur", "btc", "usd")
+
+>>> 4.46 €
+>>> 0.0004994 Ƀ
+>>> 5.43 $
+```
 
 ## TODOS
 
