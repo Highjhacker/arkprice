@@ -51,4 +51,4 @@ def get_price(*args):
 
 def output_price(*args):
     for currency in args:
-        print("{0} {1}".format(get_price(currency)[currency.upper()], currencies.get(currency)))
+        return "{0} {1}".format(get_price(currency)[currency.upper()], currencies.get(currency))

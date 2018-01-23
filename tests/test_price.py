@@ -7,7 +7,8 @@ class TestPrice(unittest.TestCase):
         self.assertEqual(type(get_price()), dict)
 
     def test_output_price(self):
-        pass
+        s = output_price("eur")
+        self.assertEqual(s.endswith("€"), True)
 
 if __name__ == '__main__':
     unittest.main()
